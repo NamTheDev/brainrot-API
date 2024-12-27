@@ -1,9 +1,13 @@
-import express, { type Express, type Request, type Response } from 'express';
+import jsonQuotes from './json/quotes.json';
+import jsonFacts from './json/facts.json';
+import jsonDictionary from './json/dictionary.json';
+import jsonNames from './json/names.json';
+import jsonImages from './json/images.json';
+import jsonJokes from './json/jokes.json';
+import Elysia from 'elysia';
 
-const app: Express = express();
+const app = new Elysia();
 const port: number = 3000;
-
-app.use(express.json());
 
 interface BrainrotQuote {
   quote: string;
@@ -35,12 +39,6 @@ interface BrainrotJoke {
   category: string;
 }
 
-import jsonQuotes from './json/quotes.json';
-import jsonFacts from './json/facts.json';
-import jsonDictionary from './json/dictionary.json';
-import jsonNames from './json/names.json';
-import jsonImages from './json/images.json';
-import jsonJokes from './json/jokes.json';
 const brainrotQuotes: BrainrotQuote[] = jsonQuotes;
 const brainrotFacts: BrainrotFact[] = jsonFacts;
 const brainrotDictionary: BrainrotDictionary[] = jsonDictionary;
@@ -50,34 +48,33 @@ const brainrotJokes: BrainrotJoke[] = jsonJokes;
 
 app.get('/quotes', (req: Request, res: Response) => {
   const randomQuote = brainrotQuotes[Math.floor(Math.random() * brainrotQuotes.length)];
-  res.json(randomQuote);
+  return randomQuote;
 });
 
 app.get('/facts', (req: Request, res: Response) => {
   const randomFact = brainrotFacts[Math.floor(Math.random() * brainrotFacts.length)];
-  res.json(randomFact);
+  return randomFact;
 });
 
 app.get('/images', (req: Request, res: Response) => {
   const randomImage = brainrotImages[Math.floor(Math.random() * brainrotImages.length)];
-  res.json(randomImage);
+  return randomImage;
 });
 
 app.get('/dictionary', (req: Request, res: Response) => {
   const randomDictionary = brainrotDictionary[Math.floor(Math.random() * brainrotDictionary.length)];
-  res.json(randomDictionary);
+  return randomDictionary;
 });
 
 app.get('/names', (req: Request, res: Response) => {
   const randomName = brainrotNames[Math.floor(Math.random() * brainrotNames.length)];
-  res.json(randomName);
+  return randomName;
 });
 
 app.get('/jokes', (req: Request, res: Response) => {
   const randomJoke = brainrotJokes[Math.floor(Math.random() * brainrotJokes.length)];
-  res.json(randomJoke);
+  return randomJoke;
 });
-
 app.get('/', (req: Request, res: Response) => {
   const message = {
     message: "Welcome to the Brainrot API.",
@@ -90,7 +87,7 @@ app.get('/', (req: Request, res: Response) => {
       { path: "/jokes", description: "Get a list of brainrot jokes" },
     ],
   };
-  res.json(message);
+  return message;
 });
 
 app.listen(port, () => {
