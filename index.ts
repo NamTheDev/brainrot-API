@@ -35,29 +35,18 @@ interface BrainrotJoke {
   category: string;
 }
 
-const brainrotQuotes: BrainrotQuote[] = [
-  { quote: "Sample quote", author: "Sample author" },
-];
-
-const brainrotFacts: BrainrotFact[] = [
-  { fact: "Sample fact", category: "Sample category" },
-];
-
-const brainrotDictionary: BrainrotDictionary[] = [
-  { word: "Sample word", definition: "Sample definition" },
-];
-
-const brainrotNames: BrainrotName[] = [
-  { name: "Sample name", meaning: "Sample meaning" },
-];
-
-const brainrotImages: BrainrotImage[] = [
-  { url: "https://sample-image.com", description: "Sample image description" },
-];
-
-const brainrotJokes: BrainrotJoke[] = [
-  { joke: "Sample joke", category: "Sample category" },
-];
+import jsonQuotes from './json/quotes.json';
+import jsonFacts from './json/facts.json';
+import jsonDictionary from './json/dictionary.json';
+import jsonNames from './json/names.json';
+import jsonImages from './json/images.json';
+import jsonJokes from './json/jokes.json';
+const brainrotQuotes: BrainrotQuote[] = jsonQuotes;
+const brainrotFacts: BrainrotFact[] = jsonFacts;
+const brainrotDictionary: BrainrotDictionary[] = jsonDictionary;
+const brainrotNames: BrainrotName[] = jsonNames;
+const brainrotImages: BrainrotImage[] = jsonImages;
+const brainrotJokes: BrainrotJoke[] = jsonJokes;
 
 app.get('/quotes', (req: Request, res: Response) => {
   const randomQuote = brainrotQuotes[Math.floor(Math.random() * brainrotQuotes.length)];
@@ -105,5 +94,5 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server started on port ${port}`);
+  console.log(`Server started.\nhttp://localhost:${port}`);
 });
