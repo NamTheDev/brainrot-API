@@ -1,122 +1,414 @@
 [
   {
     "word": "Skibidi",
-    "definition": "A term used to describe something absurd or nonsensical, often in humorous contexts."
-  },
-  {
-    "word": "Gyatt",
-    "definition": "Slang for 'Get Your Act Together,' urging someone to improve their behavior or situation."
+    "meaning": "That Ohio rizz when the toilet goes brrr and you gotta hit the fanum tax on that gyatt. Basically, it's a sigma move, no cap."
   },
   {
     "word": "Rizz",
-    "definition": "Short for charisma; refers to someone's charm or ability to attract others."
+    "meaning": "Your ability to pull, like a sigma pulling a W in Ohio. It's like having that ultimate gyatt-level charm, fr fr."
   },
   {
-    "word": "Only in Ohio",
-    "definition": "A meme phrase suggesting bizarre or exaggerated events happen only in Ohio."
+    "word": "Gyatt",
+    "meaning": "When you see a big booty, like DAMN, that's a gyatt. It's like a level 10 gyatt, no cap. Ohio final boss level."
+  },
+  {
+    "word": "Fanum Tax",
+    "meaning": "When you gotta give your friend some of your food, like paying your dues to the Kai Cenat of snacks. It's like the price of friendship, on god."
+  },
+  {
+    "word": "Ohio",
+    "meaning": "The place where all the sigma rizz happens. It's like the final boss level of cringe and based, where you gotta survive the Skibidi toilets. Only in Ohio, fr."
+  },
+  {
+    "word": "Sigma",
+    "meaning": "A lone wolf, a top G, someone who doesn't need anyone. They got that ultimate rizz and don't care about the Fanum Tax. True sigmas are built different."
+  },
+  {
+    "word": "Based",
+    "meaning": "When you don't care what others think, you're just being you. It's like the opposite of cringe, being a true sigma in Ohio."
+  },
+  {
+    "word": "Cringe",
+    "meaning": "Something so awkward it makes you wanna hide. Like a level 1 gyatt trying to have rizz. It's the opposite of based, on god."
+  },
+  {
+    "word": "No Cap",
+    "meaning": "For real, no lie, 100% true. It's like saying 'on god' but more sigma. No cap, this is the truth."
+  },
+  {
+    "word": "On God",
+    "meaning": "Swear to god, I'm telling the truth. It's like saying 'no cap' but less sigma. On god, I saw a Skibidi toilet in Ohio."
+  },
+  {
+    "word": "W",
+    "meaning": "A win, a victory, a success. Like when a sigma pulls with his rizz, that's a W. Or when you avoid the Fanum Tax, major W."
+  },
+  {
+    "word": "L",
+    "meaning": "A loss, a failure, a defeat. Like getting caught lacking in Ohio, that's a big L. Or when the Skibidi toilet gets you, ultimate L."
+  },
+  {
+    "word": "Sussy",
+    "meaning": "Suspicious, like someone's acting sus. Like when someone's being cringe but trying to be based, that's sussy."
+  },
+  {
+    "word": "Bussin",
+    "meaning": "Really good, especially food. Like when the food is so good it's worth the Fanum Tax, that's bussin. No cap, this food is bussin."
+  },
+  {
+    "word": "Bet",
+    "meaning": "Agreement, like 'okay' or 'I agree'. Someone says they have the best rizz? Bet. Someone says Ohio is wild? Bet."
+  },
+  {
+    "word": "Sheesh",
+    "meaning": "An exclamation of amazement or excitement. Like when you see a level 10 gyatt, sheesh! Or when someone pulls off a sigma move, sheesh!"
+  },
+  {
+    "word": "Drip",
+    "meaning": "Style, fashion, looking good. Like having that ultimate rizz outfit, that's drip. Sigmas always got the drip, no cap."
+  },
+  {
+    "word": "Mid",
+    "meaning": "Average, mediocre, not good, not bad. Like a level 5 gyatt, it's just mid. Ohio is definitely NOT mid, fr fr."
+  },
+  {
+    "word": "Simp",
+    "meaning": "Someone who's overly attentive to someone they like, often to their own detriment. Like paying the Fanum Tax on a mid meal, that's simping."
+  },
+  {
+    "word": "Glow Up",
+    "meaning": "A transformation, becoming more attractive or successful. Like going from a level 1 gyatt to a level 10, that's a glow up."
+  },
+  {
+    "word": "Yeet",
+    "meaning": "To throw something with force. Like yeeting your phone when you see something cringe. Or yeeting yourself out of Ohio when the Skibidi toilets attack."
+  },
+  {
+    "word": "Lit",
+    "meaning": "Exciting, amazing, fun. Like a party with maximum rizz and level 10 gyatts, that's lit. Ohio is always lit, on god."
+  },
+  {
+    "word": "Savage",
+    "meaning": "Ruthless, brutal, doesn't care about feelings. Like a sigma taking the last slice without paying the Fanum Tax, that's savage."
+  },
+  {
+    "word": "Clout",
+    "meaning": "Fame, influence, popularity. Like having the most rizz in Ohio, that's clout. Sigmas got the most clout, no cap."
+  },
+  {
+    "word": "Goat",
+    "meaning": "Greatest Of All Time. Like the ultimate sigma, the rizz god, that's the GOAT. Only in Ohio can you find the true GOAT."
+  },
+  {
+    "word": "Bruh",
+    "meaning": "A reaction to something stupid or unbelievable. Like when someone says Skibidi isn't real, bruh. Or when you see a level 1 gyatt trying to rizz up a level 10, bruh."
+  },
+  {
+    "word": "Cap",
+    "meaning": "A lie, something that's not true. Like saying you're a sigma when you're really a simp, that's cap. No cap, Ohio is real."
+  },
+  {
+    "word": "Vibe",
+    "meaning": "The feeling or atmosphere of a place or situation. Like the vibe in Ohio is just different, it's a whole different energy. The rizz is strong with this vibe."
+  },
+  {
+    "word": "Finesse",
+    "meaning": "To do something skillfully and smoothly. Like avoiding the Fanum Tax with a clever excuse, that's finessing. Sigmas finesse everything, no cap."
+  },
+  {
+    "word": "Sus",
+    "meaning": "Short for suspicious, same as sussy, like a level one acting sigma, they be lookin sus, fr"
+  },
+  {
+    "word": "Lowkey",
+    "meaning": "Secretly, subtly, not obviously. Like lowkey having a crush on someone, or lowkey wanting to escape Ohio."
+  },
+  {
+    "word": "Highkey",
+    "meaning": "Openly, obviously, not secretly. Like highkey loving Skibidi, or highkey wanting to be a sigma."
+  },
+  {
+    "word": "Period",
+    "meaning": "Used for emphasis, like saying 'that's it, end of discussion'. Like 'Ohio is the best, period.' Or 'Skibidi is real, period.'"
+  },
+  {
+    "word": "Ick",
+    "meaning": "Something that gives you a feeling of disgust or repulsion. Like seeing someone get rejected after trying too hard with their rizz, that gives you the ick."
+  },
+  {
+    "word": "Slay",
+    "meaning": "To do something exceptionally well. Like when someone pulls off a perfect Skibidi dance, they're slaying. Sigmas always slay, no cap."
+  },
+  {
+    "word": "Tea",
+    "meaning": "Gossip, juicy information. Like spilling the tea about who has the most rizz in Ohio. The Fanum Tax collector always has the best tea."
+  },
+  {
+    "word": "Stan",
+    "meaning": "To be an extremely enthusiastic fan of someone or something. Like stanning a sigma, or stanning Skibidi."
+  },
+  {
+    "word": "Flex",
+    "meaning": "To show off, to boast. Like flexing your rizz, or flexing your level 10 gyatt. Sigmas love to flex, on god."
+  },
+  {
+    "word": "Mood",
+    "meaning": "A relatable feeling or situation. Like when you're tired of Ohio but also love it, that's a mood. Or when you're feeling the rizz, that's a mood."
+  },
+  {
+    "word": "Extra",
+    "meaning": "Over the top, excessive, dramatic. Like a level 1 gyatt trying to act like a level 10, that's extra. Ohio is always extra, no cap."
+  },
+  {
+    "word": "Salty",
+    "meaning": "Bitter, angry, resentful. Like when you get hit with the Fanum Tax and you didn't want to share, you're salty."
+  },
+  {
+    "word": "Shade",
+    "meaning": "To subtly insult someone. Like throwing shade at someone's weak rizz. Sigmas throw the best shade, fr fr."
+  },
+  {
+    "word": "Ghosted",
+    "meaning": "When someone suddenly stops communicating with you without explanation. Like getting ghosted after trying to use your rizz, that's rough."
+  },
+  {
+    "word": "Left on Read",
+    "meaning": "When someone reads your message but doesn't reply. Like getting left on read by a level 10 gyatt, that's a major L."
+  },
+  {
+    "word": "Basic",
+    "meaning": "Ordinary, unoriginal, lacking personality. Like someone with no rizz and no drip, that's basic. Ohio is anything but basic."
+  },
+  {
+    "word": "Karen",
+    "meaning": "An entitled, demanding, and often unreasonable person. Like someone complaining about the Fanum Tax, that's a Karen. Even Ohio has Karens, sadly."
+  },
+  {
+    "word": "OK Boomer",
+    "meaning": "A dismissive response to an older person, typically used when they say something outdated or out of touch. Like when a boomer doesn't understand Skibidi, OK boomer."
+  },
+  {
+    "word": "Yass",
+    "meaning": "An enthusiastic expression of approval or excitement. Like when someone finally gets that level 10 rizz, yass! Or when you escape Ohio, yass!"
+  },
+  {
+    "word": "Smash",
+    "meaning": "To have sexual intercourse with. Usually in context of \"smash or pass\", would you or would you not."
+  },
+  {
+    "word": "Pass",
+    "meaning": "To decline an offer, usually meant sexually or a pass on food, like you wouldn't smash that, or you would pass on that mid meal, no cap."
+  },
+  {
+    "word": "Built Different",
+    "meaning": "Unique, exceptional, not like others. Sigmas are built different, they got that special rizz. Only in Ohio will you find people built different."
+  },
+  {
+    "word": "Caught in 4K",
+    "meaning": "Caught red-handed, exposed, usually on camera. Like getting caught lacking in Ohio, that's getting caught in 4K."
+  },
+  {
+    "word": "Main Character",
+    "meaning": "Someone who acts like they're the most important person in a situation. Like a sigma who thinks they have all the rizz, they're the main character."
+  },
+  {
+    "word": "NPC",
+    "meaning": "Non-Player Character, someone who is predictable, unoriginal, and follows the crowd. Like someone with no rizz just following trends, that's an NPC."
+  },
+  {
+    "word": "Down Bad",
+    "meaning": "Desperate, especially for a romantic partner. Like simping for a level 10 gyatt when you're a level 1, that's down bad."
+  },
+  {
+    "word": "Touch Grass",
+    "meaning": "A way of telling someone to go outside and experience the real world, usually used when someone is spending too much time online. Like if you spend too much time in Ohio."
+  },
+  {
+    "word": "Ratio",
+    "meaning": "When a reply to a post on social media gets more likes or engagement than the original post, indicating that the reply is more popular or agreeable. Like ratioing a cringe take on Skibidi."
+  },
+  {
+    "word": "Rent Free",
+    "meaning": "When someone or something is living in your head without your permission, often used to describe someone you can't stop thinking about, good or bad way. Like Ohio living rent free in your head."
+  },
+  {
+    "word": "Cheugy",
+    "meaning": "Out of date, no longer trendy. Like thinking you have rizz but you're actually cheugy. Being cheugy in Ohio is a major L."
+  },
+  {
+    "word": "Living for it",
+    "meaning": "Really enjoying something, having a great time. Like living for the Skibidi toilet videos, or living for the Ohio experience."
+  },
+  {
+    "word": "It's Giving",
+    "meaning": "It's giving off a certain vibe or energy. Like 'it's giving sigma' or 'it's giving level 10 gyatt'. Or when Ohio is just too much, 'it's giving chaos'."
+  },
+  {
+    "word": "Not me...",
+    "meaning": "Used to express disbelief or feigned ignorance about a situation. Like 'Not me getting lost in Ohio' or 'Not me trying to avoid the Fanum Tax.'"
+  },
+  {
+    "word": "Say Less",
+    "meaning": "I understand, no need to explain further. Like when someone says they have rizz, say less. Or when someone says they're from Ohio, say less."
+  },
+  {
+    "word": "I'm Weak",
+    "meaning": "I'm laughing so hard I can barely breathe. Like when you see a Skibidi toilet in real life, I'm weak. Or when someone fails spectacularly at using their rizz, I'm weak."
+  },
+  {
+    "word": "Let him cook",
+    "meaning": "Allow that person to continue unbothered as they are doing something great. Like someone with god-tier rizz, let him cook."
+  },
+  {
+    "word": "Out of Pocket",
+    "meaning": "Acting out of line, saying something inappropriate or unexpected. Like asking for the Fanum Tax on a single chip, that's out of pocket."
+  },
+  {
+    "word": "Side Eye",
+    "meaning": "A look of suspicion, disapproval, or skepticism. Like giving someone the side eye when they claim to be a sigma but they're acting sussy."
+  },
+  {
+    "word": "Soft Launch",
+    "meaning": "Subtly introducing a new relationship or project on social media, without explicitly stating what it is. Like soft launching your rizz by posting a pic with a level 10 gyatt."
+  },
+  {
+    "word": "Hard Launch",
+    "meaning": "Explicitly and officially introducing a new relationship or project on social media. Like hard launching your sigma status by posting a video of you pulling in Ohio."
+  },
+  {
+    "word": "Situationship",
+    "meaning": "A romantic or sexual relationship that is not clearly defined or committed. Like having a situationship with someone you met in Ohio, it's complicated."
+  },
+  {
+    "word": "Delulu",
+    "meaning": "Delusional. Someone who believes they are dating Kai Cenat is delulu."
+  },
+  {
+    "word": "Rizzard of Oz",
+    "meaning": "Someone who is extremely good at rizzing people up, the most powerful of rizz, fr."
+  },
+  {
+    "word": "Unspoken Rizz",
+    "meaning": "Having such a natural charm about you that you don't even have to try, you pull just by existing and being a sigma, on god."
+  },
+  {
+    "word": "Negative Rizz",
+    "meaning": "Having such bad game that you actively repel people. Like being so cringe you have negative rizz. Even Ohio can't save you from negative rizz."
+  },
+  {
+    "word": "W Rizz",
+    "meaning": "Rizz that results in a win, such as successfully pulling. Like when a sigma uses their rizz to get a level 10 gyatt, that's W rizz."
+  },
+  {
+    "word": "L Rizz",
+    "meaning": "Rizz that results in a loss, such as getting rejected. Like when a level 1 gyatt tries to use their rizz on a sigma, that's L rizz."
+  },
+  {
+    "word": "Kai Cenat",
+    "meaning": "Popular Twitch streamer who uses a lot of these brainrot words. He's like the king of Ohio, even though he's not from there, fr."
   },
   {
     "word": "Duke Dennis",
-    "definition": "A popular YouTuber known for his comedic content and NBA 2K gameplay."
+    "meaning": "Another Twitch streamer, a friend of Kai's, who is known for being a Rizz God, no cap. He could pull in Ohio without even trying."
   },
   {
-    "word": "Did you pray today?",
-    "definition": "A question used to provoke thought about spiritual or daily reflection practices."
+    "word": "IShowSpeed",
+    "meaning": "Yet another popular streamer who is known for being loud and chaotic. He's the human embodiment of Ohio, on god."
   },
   {
-    "word": "Livvy Dunne",
-    "definition": "An American gymnast and social media influencer known for her gymnastics skills and online presence."
+    "word": "Adin Ross",
+    "meaning": "Controversial streamer, often associated with the manosphere. He's like the final boss of cringe, but some people think he's based."
   },
   {
-    "word": "Rizzing up",
-    "definition": "The act of charming or flirting with someone using one's charisma or 'rizz'."
-  },
-  {
-    "word": "Baby Gronk",
-    "definition": "A nickname for a young football player seen as a prodigy, likened to Rob Gronkowski."
-  },
-  {
-    "word": "Sussy Imposter",
-    "definition": "Refers to someone suspicious or deceitful, inspired by the game Among Us."
-  },
-  {
-    "word": "Pibby Glitch",
-    "definition": "A character from a viral animation, representing corruption or glitches in digital media."
-  },
-  {
-    "word": "Sigma Male",
-    "definition": "A man who is self-reliant and independent, often considered outside of traditional social hierarchies."
-  },
-  {
-    "word": "Alpha Male",
-    "definition": "A dominant or assertive male, often used to describe leadership or competitive traits."
-  },
-  {
-    "word": "Omega Male",
-    "definition": "A term for someone who is considered at the bottom of the social hierarchy, often used humorously."
-  },
-  {
-    "word": "Grindset",
-    "definition": "A mindset focused on relentless work and self-improvement, often associated with hustle culture."
+    "word": "Sneako",
+    "meaning": "Another controversial streamer, known for his red pill content. He's like Adin Ross but even more sigma, or maybe just more cringe."
   },
   {
     "word": "Andrew Tate",
-    "definition": "A controversial internet personality known for his views on masculinity, business, and lifestyle."
+    "meaning": "The ultimate sigma, the top G, the manosphere king. He's either the most based person ever or the cringiest, depending on who you ask. He probably has level 100 rizz, no cap."
   },
   {
-    "word": "Goon Cave",
-    "definition": "A personal space or room dedicated to leisure, often video games or other hobbies."
+    "word": "Top G",
+    "meaning": "A term popularized by Andrew Tate, referring to a highly successful and dominant man. It's like being a sigma but on steroids. Only the most elite can be a Top G in Ohio."
   },
   {
-    "word": "Freddy Fazbear",
-    "definition": "The main animatronic character from the 'Five Nights at Freddy's' horror game series."
+    "word": "Red Pill",
+    "meaning": "A term used in the manosphere to describe the \"truth\" about society and gender relations. It's like waking up from the matrix and realizing that Ohio is just a simulation."
   },
   {
-    "word": "Colleen Ballinger",
-    "definition": "An American YouTuber known for her character Miranda Sings."
+    "word": "Manosphere",
+    "meaning": "A collection of online communities that promote traditional masculinity and often criticize feminism. It's like the dark side of Ohio, where the cringe is strong."
   },
   {
-    "word": "Smurf Cat",
-    "definition": "A meme featuring a cat that looks like a Smurf, often used for comedic or surreal content."
+    "word": "Coomer",
+    "meaning": "A derogatory term for someone who is addicted to p**n. They have negative rizz and are the opposite of a sigma. Coomers are not welcome in Ohio."
   },
   {
-    "word": "Strawberry Elephant",
-    "definition": "A whimsical or surreal term, often used in internet culture for nonsensical humor."
+    "word": "Incel",
+    "meaning": "Involuntary celibate, someone who can't get a romantic or sexual partner despite wanting one. They have the ultimate L rizz and are often found in the manosphere."
   },
   {
-    "word": "Blud",
-    "definition": "Slang term for friend or buddy, often used in urban or street vernacular."
+    "word": "Chad",
+    "meaning": "A stereotypical alpha male, often used in contrast to incels. They have maximum rizz and are the kings of Ohio. Chads are everything incels want to be, no cap."
   },
   {
-    "word": "Dawg",
-    "definition": "Another term for friend or companion, commonly used in casual speech."
+    "word": "Stacy",
+    "meaning": "A stereotypical attractive woman, often used in the manosphere. She's the level 10 gyatt that every Chad wants to pull. Stacys are the queens of Ohio."
   },
   {
-    "word": "Shmlawg",
-    "definition": "A playful variation of 'dog' or 'dawg', used for comedic effect."
+    "word": "Doomer",
+    "meaning": "Someone who is pessimistic about the future and believes that society is in decline. They're like the opposite of a sigma, they have no rizz and no hope."
   },
   {
-    "word": "Goofy Ahh",
-    "definition": "Describes someone or something as silly or foolish in an endearing way."
+    "word": "Bloomer",
+    "meaning": "Someone who is optimistic about the future and believes that things will get better. They have that positive rizz and believe that even Ohio can be saved."
   },
   {
-    "word": "Aiden Ross",
-    "definition": "A controversial streamer known for his brash behavior and streaming content."
+    "word": "Zoomer",
+    "meaning": "A member of Generation Z, born in the late 1990s or early 2000s. They're the ones who invented Skibidi and rizz, and they're the future of Ohio."
   },
   {
-    "word": "Sin City",
-    "definition": "A nickname for Las Vegas, known for its nightlife and entertainment."
+    "word": "Livvy",
+    "meaning": "Popular, pretty, female social media star, short for Olivia, usually associated with having a lot of rizz, like Livvy Dunne, known for her gyatt"
   },
   {
-    "word": "Monday Left Me Broken",
-    "definition": "A phrase expressing the feeling of exhaustion or depression often associated with the start of the work week."
+    "word": "Baby Gronk",
+    "meaning": "Kid who's family is pushing him to be a football star, he's friends with Livvy, he's from Ohio and got that rizz, fr"
   },
   {
-    "word": "Quirked Up White Boy",
-    "definition": "Describes a white male who exhibits quirky or unusual behaviors, often seen as charming or unique."
+    "word": "Mewing",
+    "meaning": "Putting your tongue on the roof of your mouth, in the belief that it will make you more attractive, sigmas are always mewing, no cap"
   },
   {
-    "word": "Busting It Down Style",
-    "definition": "Refers to dancing or moving with a lot of energy and style."
+    "word": "Looksmaxxing",
+    "meaning": "Trying to improve your physical appearance through various methods, like mewing or getting a haircut. It's like trying to level up your gyatt or your rizz."
+  },
+  {
+    "word": "Edge",
+    "meaning": "To watch p**n but not c*m, just watch, it's like paying the Fanum Tax but not getting any food, L move, fr"
+  },
+  {
+    "word": "Edging",
+    "meaning": "Same as edge, just watch"
+  },
+  {
+    "word": "Goon",
+    "meaning": "Same as edge, but usually for hours, you just watch and watch, like a coomer, but worse"
+  },
+  {
+    "word": "Gooning",
+    "meaning": "The act of gooning, watching and watching"
+  },
+  {
+    "word": "Gooner",
+    "meaning": "Someone who goons, like they're addicted to edging, major L, no rizz, no chance in Ohio, fr"
+  },
+  {
+    "word": "Mog",
+    "meaning": "To dominate or assert dominance over someone, usually in terms of physical appearance or attractiveness. Like a sigma mogging a simp, or a level 10 gyatt mogging a level 1."
+  },
+  {
+    "word": "ASMR",
+    "meaning": "Autonomous Sensory Meridian Response, a tingling sensation that some people experience in response to certain stimuli, such as whispering or tapping. It's like the opposite of cringe, it's relaxing and satisfying."
   }
 ]
