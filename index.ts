@@ -2,7 +2,6 @@ import jsonQuotes from './json/quotes.json';
 import jsonFacts from './json/facts.json';
 import jsonDictionary from './json/dictionary.json';
 import jsonNames from './json/names.json';
-import jsonImages from './json/images.json';
 import jsonJokes from './json/jokes.json';
 import Elysia from 'elysia';
 
@@ -11,22 +10,15 @@ const port: number = 3000;
 
 interface BrainrotQuote {
   quote: string;
-  author: string;
 }
 
 interface BrainrotFact {
   fact: string;
-  category: string;
-}
-
-interface BrainrotImage {
-  url: string;
-  description: string;
 }
 
 interface BrainrotDictionary {
   word: string;
-  definition: string;
+  meaning: string;
 }
 
 interface BrainrotName {
@@ -36,14 +28,12 @@ interface BrainrotName {
 
 interface BrainrotJoke {
   joke: string;
-  category: string;
 }
 
 const brainrotQuotes: BrainrotQuote[] = jsonQuotes;
 const brainrotFacts: BrainrotFact[] = jsonFacts;
 const brainrotDictionary: BrainrotDictionary[] = jsonDictionary;
 const brainrotNames: BrainrotName[] = jsonNames;
-const brainrotImages: BrainrotImage[] = jsonImages;
 const brainrotJokes: BrainrotJoke[] = jsonJokes;
 
 app.get('/quotes', (req: Request, res: Response) => {
@@ -54,11 +44,6 @@ app.get('/quotes', (req: Request, res: Response) => {
 app.get('/facts', (req: Request, res: Response) => {
   const randomFact = brainrotFacts[Math.floor(Math.random() * brainrotFacts.length)];
   return randomFact;
-});
-
-app.get('/images', (req: Request, res: Response) => {
-  const randomImage = brainrotImages[Math.floor(Math.random() * brainrotImages.length)];
-  return randomImage;
 });
 
 app.get('/dictionary', (req: Request, res: Response) => {
