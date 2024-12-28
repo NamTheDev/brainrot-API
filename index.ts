@@ -66,7 +66,6 @@ app.get('/', (req: Request, res: Response) => {
     routes: [
       { path: "/quotes", description: "Get a list of brainrot quotes" },
       { path: "/facts", description: "Get a list of brainrot facts" },
-      { path: "/images", description: "Get a list of brainrot images" },
       { path: "/dictionary", description: "Get a list of brainrot dictionary words" },
       { path: "/names", description: "Get a list of brainrot names" },
       { path: "/jokes", description: "Get a list of brainrot jokes" },
