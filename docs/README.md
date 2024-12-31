@@ -18,7 +18,7 @@ https://brainrot-api-c9w8.onrender.com
 ```
 
 ### Get a Random Quote
-- **Endpoint:** `/quotes`
+- **Endpoint:** [`/api/quotes`](/api/quotes)
 - **Method:** `GET`
 - **Description:** Returns a random quote.
 - **Response:**
@@ -29,7 +29,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Fact
-- **Endpoint:** `/facts`
+- **Endpoint:** [`/api/facts`](/api/facts)
 - **Method:** `GET`
 - **Description:** Returns a random fact.
 - **Response:**
@@ -40,7 +40,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Dictionary Word
-- **Endpoint:** `/dictionary`
+- **Endpoint:** [`/api/dictionary`](/api/dictionary)
 - **Method:** `GET`
 - **Description:** Returns a random dictionary word with its meaning.
 - **Response:**
@@ -52,7 +52,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Name
-- **Endpoint:** `/names`
+- **Endpoint:** [`/api/names`](/api/names)
 - **Method:** `GET`
 - **Description:** Returns a random name with its meaning.
 - **Response:**
@@ -64,7 +64,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Joke
-- **Endpoint:** `/jokes`
+- **Endpoint:** [`/api/jokes`](/api/jokes)
 - **Method:** `GET`
 - **Description:** Returns a random joke.
 - **Response:**
@@ -75,7 +75,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get Available Routes
-- **Endpoint:** `/`
+- **Endpoint:** [`/api`](/api)
 - **Method:** `GET`
 - **Description:** Returns a list of available routes and their descriptions.
 - **Response:**
@@ -83,11 +83,11 @@ https://brainrot-api-c9w8.onrender.com
   {
     "message": "Welcome to the Brainrot API.",
     "routes": [
-      { "path": "/quotes", "description": "Get a list of brainrot quotes" },
-      { "path": "/facts", "description": "Get a list of brainrot facts" },
-      { "path": "/dictionary", "description": "Get a list of brainrot dictionary words" },
-      { "path": "/names", "description": "Get a list of brainrot names" },
-      { "path": "/jokes", "description": "Get a list of brainrot jokes" }
+      { "path": "/api/quotes", "description": "Get a list of brainrot quotes" },
+      { "path": "/api/facts", "description": "Get a list of brainrot facts" },
+      { "path": "/api/dictionary", "description": "Get a list of brainrot dictionary words" },
+      { "path": "/api/names", "description": "Get a list of brainrot names" },
+      { "path": "/api/jokes", "description": "Get a list of brainrot jokes" }
     ]
   }
   ```
@@ -98,7 +98,7 @@ https://brainrot-api-c9w8.onrender.com
 ```javascript
 const axios = require('axios');
 
-axios.get('https://brainrot-api-c9w8.onrender.com/quotes')
+axios.get('https://brainrot-api-c9w8.onrender.com/api/quotes')
   .then(response => {
     console.log(response.data);
   })
@@ -111,7 +111,7 @@ axios.get('https://brainrot-api-c9w8.onrender.com/quotes')
 ```python
 import requests
 
-response = requests.get('https://brainrot-api-c9w8.onrender.com/quotes')
+response = requests.get('https://brainrot-api-c9w8.onrender.com/api/quotes')
 if response.status_code == 200:
     print(response.json())
 else:
@@ -121,7 +121,7 @@ else:
 ### PHP
 ```php
 <?php
-$ch = curl_init('https://brainrot-api-c9w8.onrender.com/quotes');
+$ch = curl_init('https://brainrot-api-c9w8.onrender.com/api/quotes');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 if ($response === false) {
@@ -134,16 +134,12 @@ curl_close($ch);
 
 ### Curl
 ```bash
-curl 'https://brainrot-api-c9w8.onrender.com/quotes'
+curl 'https://brainrot-api-c9w8.onrender.com/api/quotes'
 ```
 
 ### Other Languages
-You can use any HTTP client library available in your programming language to make requests to the API. The examples above use Axios for Node.js and the `requests` library for Python.
+You can use any HTTP client library available in your programming language to make requests to the API.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-**Note:** The API is built using Bun and Elysia, and the data is stored in JSON files. The API is deployed on Render, and the source code is available on GitHub.

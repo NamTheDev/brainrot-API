@@ -68,7 +68,7 @@ app
 
   .use(staticPlugin({
     assets: 'docs',
-    prefix: '/docs/'
+    prefix: '/docs'
   }))
 
   .get('/docs/', () => {
