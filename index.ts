@@ -62,7 +62,7 @@ app
     return message;
   })
 
-  .get('/', ({ redirect }) => {
+  .get('/*', ({ redirect }) => {
     return redirect('/docs/');
   })
 
