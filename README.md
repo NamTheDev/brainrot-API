@@ -1,15 +1,10 @@
-# brainrot-api
+# Brainrot API
 
-To install dependencies:
+A fun project built by NamTheDev.
+Please use with caution, cause brainrot can cause mentally unstable states.
 
-```bash
-bun install
-```
+## Links
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.32. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+[BrainrotAPI](https://brainrot-api-c9w8.onrender.com/)
+[GitHub](https://github.com/NamTheDev/brainrot-api)
+[NamTheDev Portfolio](https://namthedev.github.io/profile/)

@@ -4,6 +4,7 @@ import jsonDictionary from './json/dictionary.json';
 import jsonNames from './json/names.json';
 import jsonJokes from './json/jokes.json';
 import Elysia from 'elysia';
+import staticPlugin from '@elysiajs/static';
 
 const app = new Elysia();
 const port: number = 3000;
@@ -36,44 +37,44 @@ const brainrotDictionary: BrainrotDictionary[] = jsonDictionary;
 const brainrotNames: BrainrotName[] = jsonNames;
 const brainrotJokes: BrainrotJoke[] = jsonJokes;
 
-app.get('/quotes', (req: Request, res: Response) => {
-  const randomQuote = brainrotQuotes[Math.floor(Math.random() * brainrotQuotes.length)];
-  return randomQuote;
+const routes = [
+  { path: 'quotes', data: brainrotQuotes, type: 'quote' },
+  { path: 'facts', data: brainrotFacts, type: 'fact' },
+  { path: 'dictionary', data: brainrotDictionary, type: 'dictionary' },
+  { path: 'names', data: brainrotNames, type: 'name' },
+  { path: 'jokes', data: brainrotJokes, type: 'joke' },
+];
+
+routes.forEach((route) => {
+  app.get(`/api/${route.path}`, () => {
+    const randomData = route.data[Math.floor(Math.random() * route.data.length)];
+    return randomData;
+  });
 });
 
-app.get('/facts', (req: Request, res: Response) => {
-  const randomFact = brainrotFacts[Math.floor(Math.random() * brainrotFacts.length)];
-  return randomFact;
-});
+app
 
-app.get('/dictionary', (req: Request, res: Response) => {
-  const randomDictionary = brainrotDictionary[Math.floor(Math.random() * brainrotDictionary.length)];
-  return randomDictionary;
-});
+  .get('/api', () => {
+    const message = {
+      message: "Welcome to the Brainrot API.",
+      routes: routes.map((route) => ({ path: `/api/${route.path}`, description: `Get a list of brainrot ${route.type}` })),
+    };
+    return message;
+  })
 
-app.get('/names', (req: Request, res: Response) => {
-  const randomName = brainrotNames[Math.floor(Math.random() * brainrotNames.length)];
-  return randomName;
-});
+  .get('/', ({ redirect }) => {
+    return redirect('/docs/');
+  })
 
-app.get('/jokes', (req: Request, res: Response) => {
-  const randomJoke = brainrotJokes[Math.floor(Math.random() * brainrotJokes.length)];
-  return randomJoke;
-});
-app.get('/', (req: Request, res: Response) => {
-  const message = {
-    message: "Welcome to the Brainrot API.",
-    routes: [
-      { path: "/quotes", description: "Get a list of brainrot quotes" },
-      { path: "/facts", description: "Get a list of brainrot facts" },
-      { path: "/dictionary", description: "Get a list of brainrot dictionary words" },
-      { path: "/names", description: "Get a list of brainrot names" },
-      { path: "/jokes", description: "Get a list of brainrot jokes" },
-    ],
-  };
-  return message;
-});
+  .use(staticPlugin({
+    assets: 'docs',
+    prefix: '/docs/'
+  }))
 
-app.listen(port, () => {
-  console.log(`Server started.\nhttp://localhost:${port}`);
-});
+  .get('/docs/', () => {
+    return Bun.file('docs/index.html');
+  })
+
+  .listen(port, () => {
+    console.log(`Server started.\nhttp://localhost:${port}`);
+  });
