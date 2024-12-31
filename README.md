@@ -1,7 +1,7 @@
 # Brainrot API
 
 A fun project built by NamTheDev.
-Please use with caution, cause brainrot can cause mentally unstable states.
+Please use with caution, 'cause brainrot can lead to mentally unstable states.
 
 ## Links
 
