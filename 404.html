@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            /* Light background */
+            color: #333;
+            /* Dark text */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: #007bff;
+            /* ElysiaJS-like blue */
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>404</h1>
+    <p>Oops! The page you're looking for could not be found.</p>
+    <p>Maybe you mistyped the address or the page has been moved.</p>
+
+    <p><a onclick="history.back()">Go back</a></p>
+</body>
+
+</html>

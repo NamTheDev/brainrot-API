@@ -3,7 +3,7 @@ import jsonFacts from './json/facts.json';
 import jsonDictionary from './json/dictionary.json';
 import jsonNames from './json/names.json';
 import jsonJokes from './json/jokes.json';
-import Elysia from 'elysia';
+import Elysia, { redirect } from 'elysia';
 import staticPlugin from '@elysiajs/static';
 
 const app = new Elysia();
@@ -54,6 +54,8 @@ routes.forEach((route) => {
 
 app
 
+  .get('/', ({ redirect }) => redirect('/docs/#/'))
+
   .get('/api', () => {
     const message = {
       message: "Welcome to the Brainrot API.",
@@ -62,17 +64,25 @@ app
     return message;
   })
 
-  .get('/*', ({ redirect }) => {
-    return redirect('/docs/');
-  })
-
   .use(staticPlugin({
     assets: 'docs',
     prefix: '/docs'
   }))
 
-  .get('/docs/', () => {
+  .get('/docs/#/', () => {
     return Bun.file('docs/index.html');
+  })
+
+  .get('/404', () => {
+    return Bun.file('./404.html');
+  })
+
+  .onError(({ code, error, set, route, redirect }) => {
+    if (code === 'NOT_FOUND' && !`${route}`.includes('docs')) {
+      set.status = 404
+      return redirect('/404'); // Serve the HTML file
+    }
+    // Handle other errors as needed
   })
 
   .listen(port, () => {

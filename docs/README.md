@@ -8,7 +8,7 @@
 
 ## Introduction
 
-The Brainrot API is a simple API that provides random quotes, facts, dictionary words, names, and jokes. It is built using the Bun JavaScript runtime and the Elysia framework. The API is deployed at [https://brainrot-api-c9w8.onrender.com/](https://brainrot-api-c9w8.onrender.com/).
+The Brainrot API is a simple API that provides random quotes, facts, dictionary words, names, and jokes. It is built using the Bun JavaScript runtime and the Elysia framework. The API is deployed at [https://brainrot-api-c9w8.onrender.com](https://brainrot-api-c9w8.onrender.com/).
 
 ## Endpoints
 
@@ -18,7 +18,7 @@ https://brainrot-api-c9w8.onrender.com
 ```
 
 ### Get a Random Quote
-- **Endpoint:** [`/api/quotes`](/api/quotes)
+- **Endpoint:** [`/api/quotes`](https://brainrot-api-c9w8.onrender.com/api/quotes)
 - **Method:** `GET`
 - **Description:** Returns a random quote.
 - **Response:**
@@ -29,7 +29,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Fact
-- **Endpoint:** [`/api/facts`](/api/facts)
+- **Endpoint:** [`/api/facts`](https://brainrot-api-c9w8.onrender.com/api/facts)
 - **Method:** `GET`
 - **Description:** Returns a random fact.
 - **Response:**
@@ -40,7 +40,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Dictionary Word
-- **Endpoint:** [`/api/dictionary`](/api/dictionary)
+- **Endpoint:** [`/api/dictionary`](https://brainrot-api-c9w8.onrender.com/api/dictionary)
 - **Method:** `GET`
 - **Description:** Returns a random dictionary word with its meaning.
 - **Response:**
@@ -52,7 +52,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Name
-- **Endpoint:** [`/api/names`](/api/names)
+- **Endpoint:** [`/api/names`](https://brainrot-api-c9w8.onrender.com/api/names)
 - **Method:** `GET`
 - **Description:** Returns a random name with its meaning.
 - **Response:**
@@ -64,7 +64,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get a Random Joke
-- **Endpoint:** [`/api/jokes`](/api/jokes)
+- **Endpoint:** [`/api/jokes`](https://brainrot-api-c9w8.onrender.com/api/jokes)
 - **Method:** `GET`
 - **Description:** Returns a random joke.
 - **Response:**
@@ -75,7 +75,7 @@ https://brainrot-api-c9w8.onrender.com
   ```
 
 ### Get Available Routes
-- **Endpoint:** [`/api`](/api)
+- **Endpoint:** [`/api`](https://brainrot-api-c9w8.onrender.com/api)
 - **Method:** `GET`
 - **Description:** Returns a list of available routes and their descriptions.
 - **Response:**
