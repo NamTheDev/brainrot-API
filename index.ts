@@ -3,7 +3,7 @@ import jsonFacts from './json/facts.json';
 import jsonDictionary from './json/dictionary.json';
 import jsonNames from './json/names.json';
 import jsonJokes from './json/jokes.json';
-import Elysia, { redirect } from 'elysia';
+import Elysia from 'elysia';
 import staticPlugin from '@elysiajs/static';
 
 const app = new Elysia();
