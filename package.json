@@ -10,6 +10,6 @@
   "type": "module",
   "dependencies": {
     "@elysiajs/static": "^1.2.0",
-    "elysia": "^1.2.7"
+    "elysia": "^1.2.12"
   }
 }

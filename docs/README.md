@@ -8,13 +8,13 @@
 
 ## Introduction
 
-The Brainrot API is a simple API that provides random quotes, facts, dictionary words, names, and jokes. It is built using the Bun JavaScript runtime and the Elysia framework. The API is deployed at [https://brainrot-api-c9w8.onrender.com](https://brainrot-api-c9w8.onrender.com/).
+The Brainrot API is a simple API that provides random quotes, facts, dictionary words, names, and jokes. It is built using the Bun JavaScript runtime and the Elysia framework.
 
 ## Endpoints
 
 ### Base URL
 ```
-https://brainrot-api-c9w8.onrender.com
+https://github.com/NamTheDev/brainrot-API
 ```
 
 ### Get a Random Quote
